@@ -492,3 +492,7 @@ footer .footer-below {
 header {
   background: linear-gradient(135deg, #0c57d0, #0a0473) !important;
 }
+hr.star-light,
+hr.star-primary {
+    display: none !important;
+}
