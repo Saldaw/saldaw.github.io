@@ -186,6 +186,7 @@ section.success {
 }
 section:not(.success) {
     background-color: #121212 !important;
+    background: #121212 !important;
     color: #fff !important;
 }
 
