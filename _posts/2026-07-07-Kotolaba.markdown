@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 1
+date: 2026-07-04
+img: s_hmjq4fdscomhan.png                  
+project-date: July 2026
+category: Video, Developing
+video_id: hGcVySYpvM4         
+description: |
+  <p><a href="https://myindie.ru/games/game/kotolaba" target="_blank">Kotolaba</a> — рогалик с динамичным экшеном в духе Vampire Survivors, созданный за 7 дней на игровом джеме. Ключевая особенность: после смерти прошлая жизнь остаётся призраком — с тем же оружием и той же траекторией, становясь то союзником, то помехой в следующей попытке.</p>
+---

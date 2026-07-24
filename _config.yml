@@ -27,13 +27,13 @@ disqus_shortname: myshortname
 color:
   primary: 0c57d0
   primary-rgb: "5,34,82" 
-  secondary: 2c3e50 
-  secondary-dark: 233140 
+  secondary: 454545
+  secondary-dark: 454545
 
 # Footer settings
 footer:
   copyright: Saldaw
-  location: Санкт-Петербург, Россия
+  location: 
   social: Around the Web
   credits: Credits
 
@@ -45,9 +45,6 @@ social:
     url: https://www.youtube.com/@_saldaw_
   - title: github
     url: https://github.com/Saldaw
-
-# Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
