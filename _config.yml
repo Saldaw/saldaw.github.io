@@ -1,11 +1,11 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
-url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+title: Saldaw's Portfolio
+email: saldaw@vk.com
+url: https://saldaw.github.io
+description: "Портфолио разработчика игр, игры на заказ"
+keywords: "Портфолио, разработка игр, монтаж, SGI"
+skills: "Unity/C++ Developer - Graphic Designer - Video Producer"
+meta_author: Saldaw
 
 # Google webmaster tools
 google_verify:
@@ -25,30 +25,28 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: 0c57d0
+  primary-rgb: "5,34,82" 
+  secondary: 2c3e50 
+  secondary-dark: 233140 
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
+  copyright: Saldaw, 2026
+  location: Санкт-Петербург, Россия
   social: Around the Web
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+  - title: itch-io
+    url: https://saldaw.itch.io/
+  - title: youtube
+    url: https://www.youtube.com/@_saldaw_
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/Saldaw
+  - title: gamepad
+    url: https://myindie.ru/users/user/saldaw
 
 # Postal address (add as many lines as necessary)
 address:
