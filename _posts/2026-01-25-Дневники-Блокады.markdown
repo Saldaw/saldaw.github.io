@@ -1,0 +1,10 @@
+---
+layout: default
+modal-id: 6
+date: 2026-01-20
+img: 152.png                  
+project-date: January 2026
+category: Developing, Design
+description: |
+  <p>A historical game dedicated to the Siege of Leningrad, fully developed by me. I also wrote the design document, the entire story, and created the music.</p>
+---

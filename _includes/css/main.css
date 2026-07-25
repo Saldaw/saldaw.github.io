@@ -513,3 +513,8 @@ hr.star-primary {
   width: 100%;
   height: 100%;
 }
+
+.modal-content {
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff !important; /* белый текст для всего */
+}
