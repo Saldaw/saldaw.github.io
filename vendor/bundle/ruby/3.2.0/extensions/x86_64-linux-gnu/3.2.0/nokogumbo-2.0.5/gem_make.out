@@ -1,0 +1,40 @@
+current directory: /mnt/c/Users/misha/Desktop/saldaw.github.io/vendor/bundle/ruby/3.2.0/gems/nokogumbo-2.0.5/ext/nokogumbo
+/usr/bin/ruby3.2 -I/usr/lib/ruby/vendor_ruby extconf.rb
+checking for whether -I/mnt/c/Users/misha/Desktop/saldaw.github.io/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.19.4-x86_64-linux-gnu/ext/nokogiri is accepted as CFLAGS... yes
+checking for whether -I/mnt/c/Users/misha/Desktop/saldaw.github.io/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.19.4-x86_64-linux-gnu/ext/nokogiri/include is accepted as CFLAGS... yes
+checking for whether -I/mnt/c/Users/misha/Desktop/saldaw.github.io/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.19.4-x86_64-linux-gnu/ext/nokogiri/include/libxml2 is accepted as CFLAGS... yes
+checking for libxml/tree.h... yes
+checking for nokogiri.h... yes
+creating Makefile
+
+current directory: /mnt/c/Users/misha/Desktop/saldaw.github.io/vendor/bundle/ruby/3.2.0/gems/nokogumbo-2.0.5/ext/nokogumbo
+make DESTDIR\= sitearchdir\=./.gem.20260724-12363-jagg80 sitelibdir\=./.gem.20260724-12363-jagg80 clean
+
+current directory: /mnt/c/Users/misha/Desktop/saldaw.github.io/vendor/bundle/ruby/3.2.0/gems/nokogumbo-2.0.5/ext/nokogumbo
+make DESTDIR\= sitearchdir\=./.gem.20260724-12363-jagg80 sitelibdir\=./.gem.20260724-12363-jagg80
+compiling ./../../gumbo-parser/src/ascii.c
+compiling ./../../gumbo-parser/src/attribute.c
+compiling ./../../gumbo-parser/src/char_ref.c
+compiling ./../../gumbo-parser/src/error.c
+compiling ./../../gumbo-parser/src/foreign_attrs.c
+compiling nokogumbo.c
+In file included from /usr/include/ruby-3.2.0/ruby/internal/core.h:27,
+                 from /usr/include/ruby-3.2.0/ruby/ruby.h:29,
+                 from /usr/include/ruby-3.2.0/ruby.h:38,
+                 from nokogumbo.c:22:
+nokogumbo.c: In function ‘wrap_parse_args’:
+nokogumbo.c:492:27: error: ‘rb_cData’ undeclared (first use in this function)
+  492 |   return Data_Wrap_Struct(rb_cData, parse_args_mark, RUBY_NEVER_FREE, args);
+      |                           ^~~~~~~~
+/usr/include/ruby-3.2.0/ruby/internal/core/rdata.h:204:10: note: in definition of macro ‘Data_Wrap_Struct’
+  204 |         (klass),                                  \
+      |          ^~~~~
+nokogumbo.c:492:27: note: each undeclared identifier is reported only once for each function it appears in
+  492 |   return Data_Wrap_Struct(rb_cData, parse_args_mark, RUBY_NEVER_FREE, args);
+      |                           ^~~~~~~~
+/usr/include/ruby-3.2.0/ruby/internal/core/rdata.h:204:10: note: in definition of macro ‘Data_Wrap_Struct’
+  204 |         (klass),                                  \
+      |          ^~~~~
+make: *** [Makefile:248: nokogumbo.o] Error 1
+
+make failed, exit code 2

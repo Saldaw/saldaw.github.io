@@ -7,5 +7,5 @@ project-date: July 2024
 category: Video, Developing
 video_id: YvVjI4Wde-M            # новое поле
 description: |
-  <p><a href="https://matt-barley.itch.io/little-fish" target="_blank">Little Fish</a> — сюжетная игра, созданная на джеме за 7 дней в составе команды.</p>
+  <p><a href="https://matt-barley.itch.io/little-fish" target="_blank">Little Fish</a>  is a narrative-driven game created during a game jam in 7 days as part of a team. The trailer and some of the game systems were made by me.</p>
 ---
